@@ -22,7 +22,7 @@ def frenchToEnglish():
 
 @app.route("/")
 def renderIndexPage():
-    return render_template('index.html', client_token="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")
+    return render_template('index.html', client_token="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")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
